@@ -1,0 +1,204 @@
+.Redirection{
+  text-transform: uppercase;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 15px rgb(80, 129, 80);
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: white;
+  padding-left: 30px;
+  padding-bottom: 60px;
+  div{
+    height: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  p{
+    font-size: 1.5rem;
+    padding-right: 10px;
+    align-self: center;
+  }
+  i{
+    font-size: 50px;
+    align-self: center;
+  }
+  a:active{
+    opacity:0.7;
+  }
+  a:hover{
+    filter: blur(1px);
+  }
+  .VisiteCV{
+    width: 265px;
+    a{
+      display: flex;
+    }
+  }
+  .DownloadCV{
+    width: 340px;
+    a{
+      display: flex;
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .Redirection{
+    text-transform: uppercase;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 15px rgb(80, 129, 80);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 0px;
+    padding-bottom: 60px;
+    div{
+      height: 60px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      text-align: center;
+      align-self: center;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    p{
+      font-size: 1.5rem;
+      padding-right: 10px;
+    }
+    i{
+      font-size: 50px;
+    }
+    a:active{
+      opacity:0.7;
+    }
+    a:hover{
+      filter: blur(1px);
+    }
+    .VisiteCV{
+      width: 265px;
+      a{
+        display: flex;
+      }
+    }
+    .DownloadCV{
+      width: 340px;
+      a{
+        display: flex;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .Redirection{
+    text-transform: uppercase;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 15px rgb(80, 129, 80);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 60px;
+    div{
+      height: 60px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      text-align: center;
+      align-self: center;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    p{
+      font-size: 1.1rem;
+      padding-right: 10px;
+    }
+    i{
+      font-size: 35px;
+    }
+    a:active{
+      opacity:0.7;
+    }
+    a:hover{
+      filter: blur(1px);
+    }
+    .VisiteCV{
+      width: 195px;
+      a{
+        display: flex;
+      }
+    }
+    .DownloadCV{
+      width: 250px;
+      a{
+        display: flex;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .Redirection{
+    text-transform: uppercase;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 15px rgb(80, 129, 80);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    color: white;
+    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    div{
+      height: 50px;
+      padding-top: 0px;
+      padding-bottom: 0px;
+      text-align: center;
+      align-self: center;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+    }
+    p{
+      font-size: 0.9rem;
+      padding-right: 5px;
+    }
+    i{
+      font-size: 30px;
+    }
+    a:active{
+      opacity:0.7;
+    }
+    a:hover{
+      filter: blur(1px);
+    }
+    .VisiteCV{
+      width: 160px;
+      a{
+        display: flex;
+      }
+    }
+    .DownloadCV{
+      width: 200px;
+      a{
+        display: flex;
+      }
+    }
+  }
+}

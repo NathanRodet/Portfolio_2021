@@ -1,0 +1,94 @@
+.BannerBackground{
+  height: 600px;
+  color: white;
+  font-family: $font-1;
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  .Title{
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-top: 30px;
+    text-shadow: 3px 3px 15px rgba(0, 7, 0, 1);
+    h1{
+      font-size: 5.5rem;
+      letter-spacing: 0.3rem;
+      line-height: 100px;
+    }
+    h2{
+      font-size: 3rem;
+
+      line-height: 50px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .BannerBackground{
+    color: white;
+    font-family: $font-1;
+    width: 100%;
+    .Title{
+      text-transform: uppercase;
+      padding-left: 30px;
+      padding-top: 30px;
+      h1{
+        font-size: 5rem;
+        letter-spacing: 0.2rem;
+        line-height: 70px;
+      }
+      h2{
+        font-size: 2.5rem;
+        letter-spacing: 0.1rem;
+        line-height: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .BannerBackground{
+    color: white;
+    font-family: $font-1;
+    width: 100%;
+    .Title{
+      text-transform: uppercase;
+      padding-left: 0px;
+      padding-top: 30px;
+      text-align: center;
+      h1{
+        font-size: 4rem;
+        letter-spacing: 0.1rem;
+        line-height: 50px;
+      }
+      h2{
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        line-height: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .BannerBackground{
+    color: white;
+    font-family: $font-1;
+    width: 100%;
+    .Title{
+      text-transform: uppercase;
+      padding-top: 30px;
+      h1{
+        font-size: 2rem;
+        letter-spacing: 0.1rem;
+        line-height: 30px;
+      }
+      h2{
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        line-height: 30px;
+      }
+    }
+  }
+}

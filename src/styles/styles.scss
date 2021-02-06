@@ -1,14 +1,16 @@
+// Global settings
+
+@import './settings';
+
 // Pages
 
 @import './pages/index';
 @import './pages/notfound';
+@import './pages/cv';
 
 // Others
 
 @import './components/others/footer';
-@import './components/others/navigation';
-@import './components/others/404error';
+@import './components/index/banner';
 
-// Global settings
 
-@import './settings';

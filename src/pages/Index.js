@@ -1,13 +1,12 @@
 import React from 'react';
+import Banner from '../components/index/Banner';
 import Footer from '../components/others/Footer';
-import Navigation from '../components/others/Navigation';
 
 const Index = () => {
   return (
     <div className="Index">
-      <Navigation />
       <div className="IndexContent">
-
+        <Banner />
       </div>
       <Footer />
     </div>
