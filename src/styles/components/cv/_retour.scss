@@ -1,0 +1,31 @@
+.RetourBackground{
+  background-color: black;
+  .RetourContent{
+    .Navigation{
+      font-family: $font-1;
+      text-transform: uppercase;
+      padding-top: 10px;
+      padding-left: 30px;
+      padding-bottom: 10px;
+      a{
+        width: 100px;
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        transition: ease-in-out 1s;
+      }
+      a:hover{
+         background-color: white;
+         color: black;
+      }
+      i{
+        font-size: 1.5rem;
+        padding-right: 10px;
+      }
+      h3{
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

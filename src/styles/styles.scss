@@ -8,9 +8,19 @@
 @import './pages/notfound';
 @import './pages/cv';
 
-// Others
+// Components
+
+//Index
 
 @import './components/others/footer';
 @import './components/index/banner';
+
+//Cv
+
+@import './components/cv/presentation';
+@import './components/cv/retour';
+@import './components/cv/contact';
+
+
 
 

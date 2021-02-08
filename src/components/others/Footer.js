@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="FooterBackgroud">
       <div className="Redirection">
         <div className="VisiteCV">
-          <NavLink exact to="/" activeClassName="navActive">
+          <NavLink exact to="/Cv" activeClassName="navActive">
             <p>
               mon cv en ligne
             </p>
