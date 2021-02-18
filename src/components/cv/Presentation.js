@@ -17,7 +17,7 @@ const Presentation = () => {
           <ul class="content__container__list">
             <li class="content__container__list__item">Rodet Nathan !</li>
             <li class="content__container__list__item">un Étudiant !</li>
-            <li class="content__container__list__item">Motivité !</li>
+            <li class="content__container__list__item">Motivé !</li>
             <li class="content__container__list__item">un Développeur !</li>
           </ul>
         </div>

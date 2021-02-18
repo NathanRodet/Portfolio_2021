@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="VisiteCV">
           <NavLink exact to="/Cv" activeClassName="navActive">
             <p>
-              mon cv en ligne
+              Cv et Portfolio
             </p>
             <i class="fas fa-arrow-circle-right"></i>
           </NavLink>

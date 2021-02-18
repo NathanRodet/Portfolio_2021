@@ -1,0 +1,51 @@
+.OsContent{
+  padding-left: 50px;
+  padding-bottom: 10px;
+  .Title{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    h3{
+      font-size: 1.5rem;
+    }
+  }
+  .LanguagesList{
+    ul{
+      display: flex;
+      flex-wrap: wrap;
+      li{
+        list-style-type: none;
+        p{
+          font-size: 1.1rem;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .OsContent{
+    padding-left: 0px;
+    padding-bottom: 10px;
+    .Title{
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      h3{
+        font-size: 1.5rem;
+      }
+    }
+    .LanguagesList{
+      ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+          list-style-type: none;
+          p{
+            font-size: 1.1rem;
+            padding: 20px;
+          }
+        }
+      }
+    }
+  }
+}

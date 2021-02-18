@@ -1,31 +1,43 @@
-.RetourBackground{
-  background-color: black;
-  .RetourContent{
+
+.RetourContent{
+    background-color: white;
+    width: 100%;
+    color: black;
+
+
     .Navigation{
-      font-family: $font-1;
+      font-family: $font-2;
       text-transform: uppercase;
       padding-top: 10px;
       padding-left: 30px;
       padding-bottom: 10px;
+      padding-right: 30px;
+      width: 220px;
       a{
-        width: 100px;
         text-decoration: none;
-        color: white;
+        color: black;
         display: flex;
         align-items: center;
         transition: ease-in-out 1s;
+        width: fit-content;
       }
       a:hover{
-         background-color: white;
-         color: black;
+         background-color: black;
+         color: white;
       }
+
       i{
         font-size: 1.5rem;
+      }
+      #right{
+        padding-left: 10px;
+      }
+      #left{
         padding-right: 10px;
       }
+
       h3{
         font-size: 1.5rem;
       }
     }
-  }
 }

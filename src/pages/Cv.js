@@ -1,7 +1,9 @@
 import React from 'react';
 import Contact from '../components/cv/Contact';
+import Frameworks from '../components/cv/Frameworks';
+import Languages from '../components/cv/Languages';
+import Os from '../components/cv/Os';
 import Presentation from '../components/cv/Presentation';
-import Reseaux from '../components/cv/Reseaux';
 import Retour from '../components/cv/Retour';
 
 const Cv = () => {
@@ -13,9 +15,19 @@ const Cv = () => {
       <div className="CvContent">
         <div className="AboutMe">
           <Presentation />
-          <Reseaux />
-          <Contact />
         </div>
+        <div className="WebKnowledge">
+          <h4>
+            Connaissances informatique (WEB)
+          </h4>
+          <Languages />
+          <Frameworks />
+          <Os />
+        </div>
+          <Contact />
+      </div>
+      <div className="Nav">
+        <Retour />
       </div>
     </div>
   );
