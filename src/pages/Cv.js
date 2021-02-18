@@ -1,6 +1,7 @@
 import React from 'react';
 import Contact from '../components/cv/Contact';
 import Presentation from '../components/cv/Presentation';
+import Reseaux from '../components/cv/Reseaux';
 import Retour from '../components/cv/Retour';
 
 const Cv = () => {
@@ -12,6 +13,7 @@ const Cv = () => {
       <div className="CvContent">
         <div className="AboutMe">
           <Presentation />
+          <Reseaux />
           <Contact />
         </div>
       </div>

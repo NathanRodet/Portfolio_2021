@@ -1,0 +1,23 @@
+.ReseauxContent{
+  color: black;
+  font-family: $font-2;
+  background-color: white;
+  overflow: hidden;
+  .Title{
+    transition: ease-in-out 1s;
+    height: 100px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .Network{
+    text-align: center;
+    .NetworkIMG{
+      width: 100%;
+      img{
+        width: 100%;
+        height: 600px;
+        filter: blur(2px);
+      }
+    }
+  }
+}
