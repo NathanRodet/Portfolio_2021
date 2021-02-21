@@ -1,0 +1,149 @@
+.ExperiencesContent{
+  overflow: hidden; 
+  padding-bottom: 70px;
+  .Title{
+    display: flex;
+    justify-content: center;
+    h3{
+      text-transform: uppercase;
+      font-size: 1.8rem;
+      padding-bottom: 50px;
+      letter-spacing: 0.1rem;
+      text-decoration: underline;
+      text-align: center;
+    }
+  }
+  .ExperiencesList{
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .BUT{
+    display: block;
+    width: 280px;
+    padding-bottom: 50px;
+    h4{
+      font-size: 1.4rem;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.05rem;
+      padding-bottom: 10px;
+    }
+    h5{
+      padding-bottom: 5px;
+      font-size: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    p{
+      text-align: center;
+      font-size: 1rem;
+      font-weight: initial;
+      padding-bottom: 5px;
+    }
+    h6{
+      text-align: center;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+    ul{
+      display: flex;
+      justify-content: center;
+      li{
+        padding: 5px;
+        list-style-type: none;
+        text-align: center;
+        span{
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+
+  .GED{
+    display: block;
+    width: 280px;
+    padding-bottom: 50px;
+    h4{
+      font-size: 1.4rem;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.05rem;
+      padding-bottom: 10px;
+    }
+    h5{
+      padding-bottom: 5px;
+      font-size: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    p{
+      text-align: center;
+      font-size: 1rem;
+      font-weight: initial;
+      padding-bottom: 5px;
+    }
+    h6{
+      text-align: center;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+    ul{
+      display: flex;
+      justify-content: center;
+      li{
+        padding: 5px;
+        list-style-type: none;
+        text-align: center;
+        span{
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+  
+  .Bomberman{
+    display: block;
+    width: 280px;
+    h4{
+      font-size: 1.4rem;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 0.05rem;
+      padding-bottom: 10px;
+    }
+    h5{
+      padding-bottom: 5px;
+      font-size: 1rem;
+      text-align: center;
+      text-transform: uppercase;
+    }
+    p{
+      text-align: center;
+      font-size: 1rem;
+      font-weight: initial;
+      padding-bottom: 5px;
+    }
+    h6{
+      text-align: center;
+      font-size: 1rem;
+      text-transform: uppercase;
+    }
+    ul{
+      display: flex;
+      justify-content: center;
+      li{
+        padding: 5px;
+        list-style-type: none;
+        text-align: center;
+        span{
+          font-size: 1.1rem;
+        }
+      }
+    }
+  }
+
+}

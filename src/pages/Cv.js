@@ -1,5 +1,6 @@
 import React from 'react';
 import Contact from '../components/cv/Contact';
+import Experiences from '../components/cv/Experiences';
 import Frameworks from '../components/cv/Frameworks';
 import Languages from '../components/cv/Languages';
 import Os from '../components/cv/Os';
@@ -16,9 +17,12 @@ const Cv = () => {
         <div className="AboutMe">
           <Presentation />
         </div>
+        <div className="Experiences">
+          <Experiences />
+        </div>
         <div className="WebKnowledge">
-          <h4>
-            Connaissances informatique (WEB)
+          <h4 id="padding">
+            MES Connaissances informatiques
           </h4>
           <Languages />
           <Frameworks />

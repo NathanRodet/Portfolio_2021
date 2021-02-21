@@ -1,6 +1,6 @@
 .LanguagesContent{
-  padding-left: 50px;
   padding-bottom: 10px;
+  text-align: center;
   .Title{
     text-transform: uppercase;
     padding-bottom: 10px;
@@ -12,11 +12,17 @@
     ul{
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       li{
         list-style-type: none;
+        padding: 20px;
         p{
           font-size: 1.1rem;
-          padding: 20px;
+          transition: ease-in-out 1s;
+        }
+        p:hover{
+          background-color: black;
+          color: white;
         }
       }
     }
@@ -25,7 +31,6 @@
 
 @media screen and (max-width: 600px) {
   .LanguagesContent{
-    padding-left: 0px;
     padding-bottom: 10px;
     .Title{
       text-transform: uppercase;
